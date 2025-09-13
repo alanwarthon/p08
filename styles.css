@@ -1,0 +1,50 @@
+body{
+  background-color: burlywood;
+}
+#form01{
+  background-color: ghostwhite;
+  width:800px;
+  height: 500px;
+  position:absolute;
+  top:100px;
+  left:200px;
+  padding: 30px;
+}
+#txtS{
+  width:90%;
+  height: 200px;
+  display: block;
+  margin:10px auto;
+}
+
+#btnCalculate{
+  width: 50%;
+  height: 30px;
+  
+  display:block;
+  margin : 10px auto;
+  
+}
+
+#headTitle{
+  background-color: grey;
+  text-align:center;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 0px;
+}
+.row{
+  
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.row label{
+  width:50%;
+  
+}
+
+.row input{
+  width:50%;
+}
