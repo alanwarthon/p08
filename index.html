@@ -6,36 +6,62 @@
     <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <div id="form01">
-      <div id="headTitle">
+    <div id="container">
+
+      <div id="row1">
         <h1>Calculate IMC</h1>
       </div>
       
-      <div class="inputArea container">
-        <div class="row">
-          <label>Name:</label>
-          <input id="txt01" type="text" placeholder="name"/>
-        </div>
-       
-        <div class="row">
-          <label>Weight (Kg):</label>
-          <input id="txt02" type="text" placeholder="weight"/>
+      <div id="row2">
+
+        <div class="col">
+          <div class="row">
+            <div class = "col">
+              <label>Name:</label>
+            </div>
+            <div class = "col">
+              <input id="txt01" type="text" placeholder="name"/>
+            </div>
+          </div>
+        
+          <div class="row">
+            <div class = "col">
+              <label>Weight (Kg):</label>
+            </div>
+            <div class = "col">
+              <input id="txt02" type="text" placeholder="weight"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class = "col">
+              <label>Height (m):</label>
+            </div>
+            <div class = "col">
+              <input id="txt03" type="text" placeholder="height"/>
+            </div>
+          </div>
+
+          <div class="row">
+            <button id="btnCalculate">Process</button>
+          </div>
+
+          <div class="rowIMC">
+            <label id="lblIMC">IMC = </label>
+          </div>
         </div>
 
-        <div class="row">
-          <label>Height (m):</label>
-          <input id="txt03" type="text" placeholder="height"/>
+        <div class="col">
+          <div>
+            <h2 id="welcomeName"></h2>
+          </div>
+
+          <div>
+            <img id="imgHuman" src="" alt="Human body">
+          </div>
+
         </div>
 
-      
-
-        <div class="row">
-           <button id="btnCalculate">Process</button>
-        </div>
-
-        <div class="row">
-           <textarea id="txtS"></textarea>
-        </div>
       </div>
       
     </div>
