@@ -1,14 +1,18 @@
 body{
   background-color: rgb(147, 59, 173);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  margin:0;
 }
 #form01{
   background-color: ghostwhite;
   width:800px;
   height: 500px;
-  position:absolute;
-  top:100px;
-  left:200px;
   padding: 30px;
+
+  
 }
 #txtS{
   width:90%;
